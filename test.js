@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var differenceOfSum = function(nums) {
+var differenceOfSum = function (nums) {
     let elementSum = 0, digitSum = 0;  // 声明 元素和变量elementSum 和 数字和digitSum
     for (let num of nums) {  // 循环遍历数组元素
         elementSum += num;  // 计算元素和
